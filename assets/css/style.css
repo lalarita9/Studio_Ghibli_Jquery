@@ -1,0 +1,69 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: url(../img/castillo.jpg);
+    background-size: cover;
+    max-width: 100%;
+    font-family: 'Century Gothic', sans-serif;
+}
+.resultado, p {
+    font-family: 'Century Gothic';
+    font-weight: 400;
+    font-size: 15px;
+    color: #32485c;
+    text-align: center;
+}
+.card-title {
+    font-size: 18px;
+}
+.card {
+    background: hsl(64, 74%, 82%, 0.8);
+}
+
+label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-family:'Concert One', cursive;
+    font-size: 30px;
+    color: #3f3931;
+  }
+
+select {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+option {
+    background: #bbded6;
+}
+
+.btn {
+    background-image: linear-gradient(#bbded6, #61c0bf);
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+.btn i {
+    color: #037367;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-2 {
+    /*background-image: linear-gradient(#f0c48e, #f7bb9b);*/
+    background: #eef3ad;
+    width: 150px;
+    height: 40px;
+    border: solid 2px #f0c48e;
+    border-radius: 10px;
+    color: #32485c;
+    border-style:outset;
+}
